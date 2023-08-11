@@ -21,14 +21,3 @@ article.classList.remove('active');
 });
 
 
-let now = new Date();
-console.log(now.getFullYear());
-
-let present = new Date('Aug 31 2020');
-let past = new Date('Aug 31 2019');
-let days  = present - past;
-console.log(days);
-
-const date = new Date();
-const formattedDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
-console.log(formattedDate)
